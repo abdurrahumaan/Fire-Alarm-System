@@ -1,0 +1,35 @@
+==========Installation Guide for DS Assignemnt 2==========
+
+===Software Requirements===
+
+-VS Code (Frontend & REST api)
+-NetBeans 8.2 (RMI client/server)
+-Composer PHP (laravel PHP)
+-XAMPP (mySQL database)
+-Heidi SQL (Manage the database)
+
+===Setting up the Environment===
+
+-Download and Install VS Code - https://code.visualstudio.com/download
+-Download and Install NetBeans 8.2 - https://download.netbeans.org/netbeans/8.0.2/final/
+-Download and Install Composer PHP - https://getcomposer.org/download/
+-Download and Install XAMPP - https://www.apachefriends.org/download.html
+-Download and Install Heidi SQL - https://www.heidisql.com/download.php?download=installer
+
+#Setups also can be access from this drive link - https://drive.google.com/drive/folders/1e3TBOHKIdtW7dtNO1Raq8zB4FuFa0i_o?usp=sharing
+
+===Installing the Assignement Projects===
+
+#GitHub link - https://github.com/abdurrahumaan/Fire-Alarm-System
+#Project zip file can be access from this drive link - https://drive.google.com/drive/folders/1e3TBOHKIdtW7dtNO1Raq8zB4FuFa0i_o?usp=sharin
+#YouTube link - https://www.youtube.com/watch?v=oT3Ixk0yLm4&t=278s
+
+-Unzip and extract the Assignment project folder into desktop (or any location) on your windows machine.
+-Open XAMPP control panel and start both Apache and MySQL services.
+-Open Heidi SQL and -Create a new database with the name "firealarmsystem". and run the SQL script name called 'firealarmsystem' to import in the database.
+-Open VS code and import the project folder 'REST API' and run it through the terminal typing "php artisan serve".(Auomatically your browser will open and show the web client.)
+-Open NetBeans and import the project folder 'RMI' and you might get problems to resolve to import the libararies. You can resolve the problem by clicking the resolve buttom and importing the libraries which is inside the 'RMI' project directory
+-Run the Server.java by right clicking on those files in NetBeans directory.
+-Run the Dashboard.java by right clciking that file and you will get the Administrator login UI.
+
+=========We have explained how the system works in the YouTube Video======
